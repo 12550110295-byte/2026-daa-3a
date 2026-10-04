@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="225BAC0B-2C5B-0958-0268-53534133B0CA" mainViewID="3F245F3D-C45E-5A15-1CEA-4363B8D146CB">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:18:25 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

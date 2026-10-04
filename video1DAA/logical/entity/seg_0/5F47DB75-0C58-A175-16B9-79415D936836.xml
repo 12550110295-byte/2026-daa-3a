@@ -1,0 +1,261 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F47DB75-0C58-A175-16B9-79415D936836" name="FAKTUR">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:48:30 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No_Faktur" id="12944D65-1E2D-C7A3-B587-9A7AC912B092">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:48:45 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_pelanggan" id="CDDA1A79-FF8D-CB14-8C7C-830AA5B4299B">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:49:18 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_pegawai" id="D43F432B-8FB0-DB83-2527-AC685BF84C95">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:50:03 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tgl_Faktur" id="08C3CFFE-FD21-DB3D-D70F-F0E01E524301">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:50:32 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tgl_Pengiriman" id="F0B04947-6EF3-CE31-BE6E-2D9E8872F54D">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:51:00 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_PO" id="C1911156-F3C5-C076-43C2-EB92DEDF3EBF">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:51:33 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mata_Ulang" id="66706D98-5E8A-035F-C91F-4E45707E6C15">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:51:54 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Term" id="670770F1-14E5-A7FB-8E15-9199B2F8CA49">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:52:22 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dikirim_ke" id="CD7AB15A-AA39-D0B0-367A-0746DC2C3474">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:52:52 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total_Pajak" id="93B777C1-07D8-B740-DBC5-500E342F896A">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:53:28 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Biaya_Pengantaran" id="CA980581-8EFB-447D-CC7A-3DB00A1CB04D">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:53:58 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total" id="026C44B4-7D1B-EB05-CA53-41312D35A551">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:54:33 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dibayar" id="1339C05D-1D43-46C5-59CD-F2E1589E0D8E">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:54:55 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Saldo" id="CCB8F007-ABA5-E7F6-1F5F-F2E750AAF99D">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:55:16 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_pelanggan1" id="01B62AD4-765B-291E-B35F-3ECF40B576F5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 20:02:59 UTC</createdTime>
+<generatorID>23A0EC04-0080-C98B-C802-186C17A348D9</generatorID>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<referedAttribute>3001EC30-39EA-8B96-0850-078CF3452AB0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_pegawai1" id="657EF9DF-254B-CAF8-FD89-0368A57823D6">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 20:03:16 UTC</createdTime>
+<generatorID>CC2103C6-78BF-C7BD-1C37-10BC24F0D8A1</generatorID>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<referedAttribute>3B289A05-4A6B-EBCB-3D6A-1CE0CDA856C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CDC5C63-C89C-0CF5-6786-269B0109DD53" name="FAKTUR PK">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:49:08 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<engineerTo>
+<item key="DCC6ECFF-C996-9F5C-5259-A8CECE7AB03F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12944D65-1E2D-C7A3-B587-9A7AC912B092</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

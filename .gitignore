@@ -5,3 +5,7 @@
 __pycache__
 
 *.egg-info
+**/*.localz
+**/*.local
+**/*.git
+**/*.DS_Store

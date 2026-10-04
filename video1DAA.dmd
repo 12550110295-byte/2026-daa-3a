@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="video1DAA" id="84650E3D-61FE-B56A-C1EF-C61C163990E5" version="3.5">
+<createdBy>LENOVO</createdBy>
+<createdTime>2026-10-04 19:18:25 UTC</createdTime>
+<ownerDesignName>video1DAA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>84650E3D-61FE-B56A-C1EF-C61C163990E5</designId>
+</OSDM_Design>
