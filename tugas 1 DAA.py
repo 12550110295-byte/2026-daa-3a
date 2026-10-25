@@ -1,10 +1,6 @@
 import csv
 import time
 
-# ==========================================
-# 1. MODEL INPUT & OUTPUT
-# ==========================================
-
 class Book:
     """Kelas untuk merepresentasikan data buku dari dataset."""
     def __init__(self, title: str, author: str, category: str):
@@ -20,10 +16,6 @@ class SearchResult:
         self.comparisons = comparisons
         self.execution_time = execution_time
 
-
-# ==========================================
-# 2. IMPLEMENTASI ALGORITMA PENCARIAN
-# ==========================================
 
 def linear_search(books: list[Book], target_title: str) -> SearchResult:
     """
@@ -69,10 +61,6 @@ def binary_search(sorted_books: list[Book], target_title: str) -> SearchResult:
     return SearchResult(False, None, comparisons, end_time - start_time)
 
 
-# ==========================================
-# 3. FUNGSI PEMBACA DATASET
-# ==========================================
-
 def load_dataset(file_path: str, limit: int = None) -> list[Book]:
     """Membaca file CSV dataset dan mengembalikannya dalam bentuk list of Book."""
     books = []
@@ -94,12 +82,7 @@ def load_dataset(file_path: str, limit: int = None) -> list[Book]:
     return books
 
 
-# ==========================================
-# 4. EKSEKUSI PENGUJIAN & SIMULASI SKENARIO
-# ==========================================
-
 def main():
-    # Ganti nama file sesuai file CSV dataset Kaggle yang kamu unduh
     csv_file = "books.csv" 
     
     print("=== MENGAMBIL DATA DARI DATASET ===")
@@ -109,7 +92,6 @@ def main():
         print("Dataset kosong atau gagal dimuat.")
         return
 
-    # Pengujian pada beberapa ukuran input n = 100, 1.000, 10.000
     sample_sizes = [100, 1000, min(10000, len(full_dataset))]
     
     print("\n" + "="*60)
@@ -118,10 +100,8 @@ def main():
 
     for n in sample_sizes:
         data_sample = full_dataset[:n]
-        # Data disorting untuk keperluan Binary Search
         sorted_sample = sorted(data_sample, key=lambda x: x.title)
         
-        # Ambil contoh target dari data
         target_exist = data_sample[n // 2].title
         
         ls_res = linear_search(data_sample, target_exist)
@@ -131,7 +111,6 @@ def main():
         print(f"Linear Search  -> Perbandingan: {ls_res.comparisons:<6} | Waktu: {ls_res.execution_time:.6f} detik")
         print(f"Binary Search  -> Perbandingan: {bs_res.comparisons:<6} | Waktu: {bs_res.execution_time:.6f} detik")
 
-    # Pengujian 4 Skenario Pencarian pada n = 10.000
     n = sample_sizes[-1]
     data_sample = full_dataset[:n]
     sorted_sample = sorted(data_sample, key=lambda x: x.title)
